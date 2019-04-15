@@ -7,6 +7,7 @@ public class User {
     String login;
     String password;
     Integer age;
+    Gender gender;
 
     public Long getId() {
         return id;
@@ -46,5 +47,13 @@ public class User {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 }

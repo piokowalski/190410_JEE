@@ -7,30 +7,26 @@ usersengine.iml
 #src
 #pom.xml
 #src/main/java/com/isa/usersengine/Main.java
-src/main/java/com/isa/usersengine/cdi/RandomUserCDIApplicationDao.java
-src/main/java/com/isa/usersengine/cdi/RandomUserCDIApplicationDaoBean.java
-src/main/java/com/isa/usersengine/cdi/RandomUserCDIRequestDao.java
-src/main/java/com/isa/usersengine/cdi/RandomUserCDIRequestDaoBean.java
-src/main/java/com/isa/usersengine/cdi/RandomUserCDISessionDao.java
-src/main/java/com/isa/usersengine/cdi/RandomUserCDISessionDaoBean.java
+#src/main/java/com/isa/usersengine/cdi/RandomUserCDIApplicationBean.java
+#src/main/java/com/isa/usersengine/cdi/RandomUserCDIRequestBean.java
+#src/main/java/com/isa/usersengine/cdi/RandomUserCDISessionBean.java
 #src/main/java/com/isa/usersengine/dao/UsersRepositoryDao.java
 #src/main/java/com/isa/usersengine/dao/UsersRepositoryDaoBean.java
 #src/main/java/com/isa/usersengine/domain/User.java
 #src/main/java/com/isa/usersengine/repository/UsersRepository.java
-src/main/java/com/isa/usersengine/servlet/AddUserServlet.java
-src/main/java/com/isa/usersengine/servlet/FindUserByIdServlet.java
-src/main/java/com/isa/usersengine/servlet/HelloServlet.java
-src/main/java/com/isa/usersengine/servlet/RandomUserServlet.java
-src/main/java/com/isa/usersengine/servlet/WelcomeUserServlet.java
-src/main/java/com/isa/usersengine/servlet/UserServlet.java
-src/main/java/com/isa/usersengine/service/UserService.java
-src/main/webapp/WEB-INF/jboss-web.xml
+#src/main/java/com/isa/usersengine/servlet/FindUserByIdServlet.java
+#src/main/java/com/isa/usersengine/servlet/HelloServlet.java
+#src/main/java/com/isa/usersengine/servlet/RandomUserServlet.java
+#src/main/java/com/isa/usersengine/servlet/WelcomeUserServlet.java
+#src/main/java/com/isa/usersengine/servlet/UserServlet.java
+#src/main/java/com/isa/usersengine/service/UserService.java
+#src/main/webapp/WEB-INF/jboss-web.xml
 #src/main/webapp/WEB-INF/web.xml
-src/main/webapp/add-user.html
+#src/main/webapp/add-user.html
 #src/main/webapp/index.jsp
-src/main/java/com/isa/usersengine/cdi/MaxPulse.java
-src/main/java/com/isa/usersengine/cdi/MaxPulseBean.java
-src/main/java/com/isa/usersengine/domain/Gender.java
+#src/main/java/com/isa/usersengine/cdi/MaxPulse.java
+#src/main/java/com/isa/usersengine/cdi/MaxPulseBean.java
+#src/main/java/com/isa/usersengine/domain/Gender.java
 
 # JEE Advanced
 
