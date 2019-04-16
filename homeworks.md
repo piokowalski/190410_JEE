@@ -42,3 +42,23 @@ Kasowanie powinno zostać zaimplementowane w kontekście webowym `/user`.
    | :-------------: |:-------------:|
    | 2 p.p.      | 17.04.2019 |
    
+3. Listę użytkowników przepisz na postać używającą FM. Dodatkowo przenieś formularz 
+z pliku add-user.html do servletu z FM. Plik add-user.html powinien zostać skasowany
+z drzewa aplikacji, jednak funkcjonalność dodawania użytkownika powinna zostać zachowana.
+Dodawanie powinno zostać zaimplementowane w kontekście webowym `/user`.
+
+    | Punktacja        | Termin           |
+    | :-------------: |:-------------:|
+    | 1 p.p.      | 24.04.2019 |
+    
+4. Rozwiąż zadanie 3 oraz do każdej pozycji użytkownika dodaj link „edit user”, 
+którego kliknięcie spowoduje przekierowanie na nowy widok edycji użytkownika.
+Na tym widoku powinien wyświetlać się dokładnie ten sam formularz co przy dodawaniu
+użytkownika z tą tylko różnicą, że pola formularza będą domyślnie wypełnione aktualną
+wartością (atrybut `value`). 
+Edycja powinna zostać zaimplementowana w kontekście webowym `/user`.
+
+   | Punktacja        | Termin           |
+   | :-------------: |:-------------:|
+   | 2 p.p.      | 24.04.2019 |
+   
