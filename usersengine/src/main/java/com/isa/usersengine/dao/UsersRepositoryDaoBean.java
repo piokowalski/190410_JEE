@@ -30,4 +30,9 @@ public class UsersRepositoryDaoBean implements UsersRepositoryDao {
     public List<User> getUsersList() {
         return UsersRepository.getRepository();
     }
+
+    @Override
+    public void deleteUserById(Long id) {
+        UsersRepository.getRepository().remove(getUserById(id));
+    }
 }

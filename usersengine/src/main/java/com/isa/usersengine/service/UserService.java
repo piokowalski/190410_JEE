@@ -1,11 +1,11 @@
 package com.isa.usersengine.service;
 
 import com.isa.usersengine.dao.UsersRepositoryDao;
-import com.isa.usersengine.dao.UsersRepositoryDaoBean;
 import com.isa.usersengine.domain.User;
 
 import javax.ejb.EJB;
 import javax.enterprise.context.RequestScoped;
+import java.util.List;
 
 @RequestScoped
 public class UserService {
@@ -19,5 +19,13 @@ public class UserService {
 
     public User findUserById(Long id) {
         return usersRepositoryDao.getUserById(id);
+    }
+
+    public List<User> findAllUsers() {
+        return usersRepositoryDao.getUsersList();
+    }
+
+    public void deleteUserById(Long id) {
+        usersRepositoryDao.deleteUserById(id);
     }
 }

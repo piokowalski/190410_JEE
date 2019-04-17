@@ -15,4 +15,6 @@ public interface UsersRepositoryDao {
     User getUserByLogin(String login);
 
     List<User> getUsersList();
+
+    void deleteUserById(Long id);
 }

@@ -43,24 +43,27 @@ src/main/java/com/isa/usersengine/interceptors/
 src/main/java/com/isa/usersengine/cdi/SecurityHashProvider.java
 src/main/java/com/isa/usersengine/cdi/ErrorHandlerProvider.java
 src/main/java/com/isa/usersengine/views/
+src/main/java/com/isa/usersengine/service/SchedulerExample.java
+src/main/java/com/isa/usersengine/servlet/PushNewUser.java
 
 # Freemarker
 
-src/main/java/com/isa/usersengine/freemarker/ConfigProvider.java
-src/main/java/com/isa/usersengine/freemarker/TemplateProvider.java
-src/main/webapp/WEB-INF/fm-templates
-src/main/webapp/WEB-INF/fm-templates/welcome-user.ftlh
-src/main/webapp/WEB-INF/fm-templates/find-user-by-id.ftlh
-src/main/webapp/WEB-INF/fm-templates/users-list.ftlh
-src/main/webapp/WEB-INF/fm-templates/copyright-footer.ftlh
-src/main/java/com/isa/usersengine/servlet/UsersListServlet.java
-src/main/java/com/isa/usersengine/servlet/RangeNumbersServlet.java
-src/main/webapp/WEB-INF/fm-templates/range-numbers.ftlh
-src/main/webapp/css
-src/main/webapp/css/styles.css
-src/main/java/com/isa/usersengine/servlet/HelloMacroServlet.java
-src/main/webapp/WEB-INF/fm-templates/hello-macro.ftlh
-src/main/webapp/WEB-INF/fm-templates/macros/hello-size-macro.ftlh
-src/main/java/com/isa/usersengine/servlet/HelloNestedMacroServlet.java
-src/main/webapp/WEB-INF/fm-templates/hello-nested-macro.ftlh
-src/main/webapp/WEB-INF/fm-templates/macros/hello-size-nestet-greet-macro.ftlh
+#src/main/java/com/isa/usersengine/freemarker/ConfigProvider.java
+#src/main/java/com/isa/usersengine/freemarker/TemplateProvider.java
+#src/main/webapp/WEB-INF/fm-templates
+#src/main/webapp/WEB-INF/fm-templates/welcome-user.ftlh
+#src/main/webapp/WEB-INF/fm-templates/find-user-by-id.ftlh
+#src/main/webapp/WEB-INF/fm-templates/users-list.ftlh
+#src/main/webapp/WEB-INF/fm-templates/copyright-footer.ftlh
+#src/main/java/com/isa/usersengine/servlet/UsersListServlet.java
+#src/main/java/com/isa/usersengine/servlet/RangeNumbersServlet.java
+#src/main/webapp/WEB-INF/fm-templates/range-numbers.ftlh
+#src/main/webapp/css
+#src/main/webapp/css/styles.css
+#src/main/java/com/isa/usersengine/servlet/HelloMacroServlet.java
+#src/main/webapp/WEB-INF/fm-templates/hello-macro.ftlh
+#src/main/webapp/WEB-INF/fm-templates/macros/hello-size-macro.ftlh
+#src/main/java/com/isa/usersengine/servlet/HelloNestedMacroServlet.java
+#src/main/webapp/WEB-INF/fm-templates/hello-nested-macro.ftlh
+#src/main/webapp/WEB-INF/fm-templates/macros/hello-size-nestet-greet-macro.ftlh
+#src/main/webapp/js/user.js
