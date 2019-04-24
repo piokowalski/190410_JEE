@@ -72,3 +72,23 @@ operacji zapisu, podając w logach wszystkie znane informacje o użytkowniku.
    | :-------------: |:-------------:|
    | 1 p.p.      | 25.04.2019 |
    
+6. Przygotuj w pełni stabilną i bezpieczną aplikację umożliwiającą dodawanie, edycję,
+kasowanie użytkownika. Zapewnij pełną walidację danych oraz komunikaty dla użytkownika.
+
+- dodawanie: wszystkie pola, poza obrazkiem - obowiązkowe, obrazek powinien być ustawiany 
+domyślny (zad 5), ID dodawanego usera powinno być unikalne, po dodaniu usera widok
+powinien przekierować na listę użytkowników i wyświetlić tam komunikat o powodzeniu 
+operacji. Jeśli dodawanie się nie udało, widok powinien pozostać na formularzu
+dodawania użytkownika, z komunikatem błędu oraz polami formularza wypełnionymi 
+przed wystąpieniem błędu (nie chcemy męczyć użytkownika ponownym wypełnianiem danych)
+- edycja: ID nie jest możliwy do zmiany, jeśli hasło nie jest podane to nie podlega 
+edycji, warunki walidacji analogiczne do dodawania użytkownika wraz z przekierowaniem 
+po sukcesie edycji, jeśli zdjęcie nie zostało załadowane, pozostaje to poprzednie, 
+jeśli zdjęcie zostało załadowane - następuje jego podmiana
+- brak specyfikacji walidacji, należy przewidzieć potencjalne problemy i skutecznie
+przed nimi się zabezpieczyć
+
+   | Punktacja        | Termin           |
+   | :-------------: |:-------------:|
+   | 3 p.p.      | 09.05.2019 |
+   
