@@ -30,21 +30,23 @@ usersengine.iml
 
 # JEE Advanced
 
-src/main/java/com/isa/usersengine/cdi/FileUploadProcessorBean.java
-src/main/java/com/isa/usersengine/exceptions/
-src/main/java/com/isa/usersengine/servlet/ImagesServlet.java
-src/main/resources/
-src/main/webapp/WEB-INF/fm-templates/add-edit-user.ftlh
-MjI4OTcxJANme2BiV0w1WHAGYDBNDz0DJFNhJA9XeVp9B31tUkhgXXkDfWNWTH1TZkY1NQdVIAMnXTwgERc6AywaJSQE.jpg
-NDczODUyJy1MNWByYU02cFFNYCB7Dj4tDh1hNDlWf31QT3hyY0l_dU5LeHRgQXZxWkJ3azoKLSURA2EuJR4=.jpg
+#src/main/java/com/isa/usersengine/cdi/FileUploadProcessorBean.java
+#src/main/java/com/isa/usersengine/exceptions/
+#src/main/java/com/isa/usersengine/servlet/ImagesServlet.java
+#src/main/resources/
+#src/main/webapp/WEB-INF/fm-templates/add-edit-user.ftlh
+#MjI4OTcxJANme2BiV0w1WHAGYDBNDz0DJFNhJA9XeVp9B31tUkhgXXkDfWNWTH1TZkY1NQdVIAMnXTwgERc6AywaJSQE.jpg
+#NDczODUyJy1MNWByYU02cFFNYCB7Dj4tDh1hNDlWf31QT3hyY0l_dU5LeHRgQXZxWkJ3azoKLSURA2EuJR4=.jpg
 src/main/java/com/isa/usersengine/dao/UsersRepositoryDaoRemote.java
-src/main/java/com/isa/usersengine/filters/
+#src/main/java/com/isa/usersengine/filters/
 src/main/java/com/isa/usersengine/interceptors/
 src/main/java/com/isa/usersengine/cdi/SecurityHashProvider.java
 src/main/java/com/isa/usersengine/cdi/ErrorHandlerProvider.java
 src/main/java/com/isa/usersengine/views/
 src/main/java/com/isa/usersengine/service/SchedulerExample.java
 src/main/java/com/isa/usersengine/servlet/PushNewUser.java
+src/main/webapp/push-example.html
+src/main/webapp/css
 
 # Freemarker
 

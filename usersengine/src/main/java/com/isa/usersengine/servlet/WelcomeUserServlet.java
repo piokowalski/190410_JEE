@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -26,6 +25,7 @@ public class WelcomeUserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String name = req.getParameter("name");
+        Double salary = Double.parseDouble(String.valueOf(req.getAttribute("salary")));
 
         if (name == null || name.isEmpty()) {
             resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
@@ -36,6 +36,7 @@ public class WelcomeUserServlet extends HttpServlet {
         Map<String, Object> model = new HashMap<>();
 
         model.put("name", name);
+        model.put("salary", salary);
 
         try {
             template.process(model, resp.getWriter());
