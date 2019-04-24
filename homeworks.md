@@ -62,3 +62,13 @@ Edycja powinna zostać zaimplementowana w kontekście webowym `/user`.
    | :-------------: |:-------------:|
    | 2 p.p.      | 24.04.2019 |
    
+5. Przygotuj dowolną grafikę maksymalnego rozmiaru 200x200px. Może to być po prostu
+czarny kawałek obrazka. Potraktuj tę grafikę jako zaślepkę: jeśli zdjęcie użytkownika 
+nie istnieje, umieść domyślnie tę grafikę. Do rozwiązania wykorzystaj filtry.
+Jeśli zapisywany użytkownik posiada zaślepkę, zaloguj ten fakt interceptorem w czasie
+operacji zapisu, podając w logach wszystkie znane informacje o użytkowniku. 
+
+   | Punktacja        | Termin           |
+   | :-------------: |:-------------:|
+   | 1 p.p.      | 25.04.2019 |
+   
